@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Harry Potter</title>
+
+<link rel="stylesheet" href="CSS/Varitas.css">
+</head>
+
+
+<!--ACA COMIENZA EL BODY-->
+
+<body>
+    <!--ENCABEZADO-->
+    <header>
+        <h1>MAGIC SHOP</h1>
+        <div class="logo-header">
+            <img src="MEDIA/Logo Chico.png" alt="Logo Chico" class="logo-chico">
+        </div>
+    </header>
+
+<!--MENU DE NAVEGACIÓN-->
+
+    <nav> 
+        <ul class="nav-principal">
+         <li><a href="index.html">INICIO</a></li>
+         <li><a href="Varitas.html">VARITAS</a></li>
+         <li><a href="Ropa.html">TÚNICAS Y ROSA</a></li>
+         <li><a href="Libros.html">LIBROS</a></li>
+         <li><a href="Figuras.html">FIGURAS</a></li>
+         <li><a href="Contacto.html">CONTACTO</a></li>
+         <li><a href="Reseñas.html">RESEÑAS</a></li>
+         </ul>
+         <ul class="carrito-nav">
+            <li class="carrito-nav"><a href="Carrito.html"><img src="MEDIA/Íconos/Carrito.png" alt="Carrito"></a></li>
+        </ul>
+       </nav>
+
+<!--INICIO PRODUCTOS-->
+
+<section class="seccion-varitas">
+    <h2>VARITAS</h2>
+    <div class="listado-varitas">
+
+   <div class="producto-varita">
+
+    <img src="VARITAS/ImagenesVaritas/VaritasHarryPotter.png" alt="Varita de Harry Potter">
+
+    <div class="info-producto">
+        <h3>Varita de Harry Potter</h3>
+        <p class="precio">$39.900</p>
+        <button class="comprar-btn"
+                data-id="harry-potter-varita"
+                data-nombre="Varita de Harry Potter"
+                data-precio="39900"
+                data-imagen="ImagenesVaritas/VaritasHarryPotter.png"
+                onclick="agregarAlCarrito(this)">
+            COMPRAR
+        </button>
+
+    </div>
+</div>
+
+     <div class="producto-varita">
+    <img src="VARITAS/ImagenesVaritas/VaritaHermione.png" alt="Varita de Hermione Granger">
+    <div class="info-producto">
+        <h3>Varita de Hermione Granger</h3>
+        <p class="precio">$39.900</p>
+        <button class="comprar-btn"
+                data-id="hermione-varita"
+                data-nombre="Varita de Hermion Granger"
+                data-precio="39900"
+                data-imagen="ImagenesVaritas/VaritaHermione.png"
+                onclick="agregarAlCarrito(this)">
+            COMPRAR
+        </button>
+    </div>
+</div>
+
+        <div class="producto-varita">
+    <img src="VARITAS/ImagenesVaritas/VaritaRonWeasly.png" alt="Varita de Ron Weasly">
+    <div class="info-producto">
+        <h3>Varita de Ron Weasly</h3>
+        <p class="precio">$39.900</p>
+        <button class="comprar-btn"
+                data-id="ron-weasly-varita"
+                data-nombre="Varita de Ron Weasly"
+                data-precio="39900"
+                data-imagen="ImagenesVaritas/VaritaRonWeasly.png"
+                onclick="agregarAlCarrito(this)">
+            COMPRAR
+        </button>
+    </div>
+</div>
+
+       <div class="producto-varita">
+    <img src="VARITAS/ImagenesVaritas/VaritaSeverusSnape.png" alt="Varita de Severus Snape">
+    <div class="info-producto">
+        <h3>Varita de Severus Snape</h3>
+        <p class="precio">$39.900</p>
+        <button class="comprar-btn"
+                data-id="severus-snape-varita"
+                data-nombre="Varita de Harry Potter"
+                data-precio="39900"
+                data-imagen="ImagenesVaritas/VaritaSeverusSnape.png"
+                onclick="agregarAlCarrito(this)">
+            COMPRAR
+        </button>
+    </div>
+</div>
+
+ <div class="producto-varita">
+    <img src="VARITAS/ImagenesVaritas/VaritaSiriusBlack.png" alt="Varita de Sirius Black">
+    <div class="info-producto">
+        <h3>Varita de Sirius Black</h3>
+        <p class="precio">$39.900</p>
+        <button class="comprar-btn"
+                data-id="sirius-black-varita"
+                data-nombre="Varita de Sirius Black"
+                data-precio="39900"
+                data-imagen="ImagenesVaritas/VaritaSiriusBlack.png"
+                onclick="agregarAlCarrito(this)">
+            COMPRAR
+        </button>
+    </div>
+</div>
+
+ <div class="producto-varita">
+    <img src="VARITAS/ImagenesVaritas/VaritaLuciusMalfoy.png" alt="Varita de Lucius Malfoy">
+    <div class="info-producto">
+        <h3>Varita de Lucius Malfoy</h3>
+        <p class="precio">$39.900</p>
+        <button class="comprar-btn"
+                data-id="lucius-malfoy-varita"
+                data-nombre="Varita de Lucius Malfoy"
+                data-precio="39900"
+                data-imagen="ImagenesVaritas/VaritaLuciusMalfoy.png"
+                onclick="agregarAlCarrito(this)">
+            COMPRAR
+        </button>
+    </div>
+</div>
+
+ <div class="producto-varita">
+    <img src="VARITAS/ImagenesVaritas/VaritaVoldemort.png" alt="Varita de Voldemort">
+    <div class="info-producto">
+        <h3>Varita de Voldemort</h3>
+        <p class="precio">$39.900</p>
+        <button class="comprar-btn"
+                data-id="Voldemort-varita"
+                data-nombre="Varita de Voldemort"
+                data-precio="39900"
+                data-imagen="ImagenesVaritas/VaritaVoldemort.png"
+                onclick="agregarAlCarrito(this)">
+            COMPRAR
+        </button>
+    </div>
+</div>
+
+ <div class="producto-varita">
+    <img src="VARITAS/ImagenesVaritas/VaritaViktorKrum.png" alt="Varita de Viktor Krum">
+    <div class="info-producto">
+        <h3>Varita de Viktor Krum</h3>
+        <p class="precio">$39.900</p>
+        <button class="comprar-btn"
+                data-id="viktor-krum-varita"
+                data-nombre="Varita de Viktor Krum"
+                data-precio="39900"
+                data-imagen="ImagenesVaritas/VaritaViktorKrum.png"
+                onclick="agregarAlCarrito(this)">
+            COMPRAR
+        </button>
+    </div>
+</div>
+        
+    </div>
+</section>
+
+
+<!--ACA COMIENZA EL PIE DE PÁGINA-->
+<footer>
+    <div class="footer-linea"></div>
+    <div class="footer-contenido">
+        <div class="iconos-sociales">
+            <a href="https://www.facebook.com/tu_pagina_de_facebook" target="_blank"><img src="MEDIA/Íconos/Facebookícono.png" alt="Facebook"></a>
+            <a href="https://twitter.com/tu_usuario_de_twitter" target="_blank"><img src="MEDIA/Íconos/XÍcono.png" alt="X"></a>
+            <a href="https://www.instagram.com/tu_usuario_de_instagram" target="_blank"><img src="MEDIA/Íconos/InstagramÍcono.png" alt="Instagram"></a>
+        </div>
+    <p>© 2025 Micaela Jazmin Sain. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>
